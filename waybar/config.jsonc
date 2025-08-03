@@ -1,0 +1,97 @@
+
+{ 
+  "layer": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["custom/pacman", "mpris", "custom/notification"],
+  "modules-right": ["hyprland/language","pulseaudio","clock"],
+
+  "height" : 40,
+  "margin-left": 400,
+  "margin-right": 400,
+  "margin-top": 10,
+  "spacing": 15,
+
+  "custom/pacman": {
+    "format": "{} 󰚰 ",
+    "interval": 30,
+    "exec": "/usr/bin/checkupdates 2>/dev/null | /usr/bin/wc -l",
+    "exec-if": "exit 0",
+    "on-click": "kitty sh -c 'yay -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
+    "signal": 8,
+    "tooltip": false
+  },
+
+  "mpris": {
+    "palyer": "spotify",
+    "format": "  {title} - {artist}"
+
+  },
+
+  "clock": {
+            "format": "   {:L%H:%M    :3}  ",
+            "format-alt": "  {:L%H:%M:%S    :3}  ",
+            "interval": 1,   
+            "tooltip-format": "<tt>{calendar}</tt>",
+            "smooth-scrolling-threshold": 0.01,
+            "calendar": {
+                "mode"          : "year",
+                "mode-mon-col"  : 3,
+                "weeks-pos"     : "right",
+                "on-scroll"     : 1,
+                "format": {
+                    "months":     "<span color='#bb9af7'><b>{}</b></span>",
+                    "days":       "<span color='#c0caf5'><b>{}</b></span>",
+                    "weeks":      "<span color='#7dcfff'><b>W{}</b></span>",
+                    "weekdays":   "<span color='#7aa2f7'><b>{}</b></span>",
+                    "today":      "<span color='#e0af68'><b><u>{}</u></b></span>"
+                }
+            },
+            "actions": {
+              "on-click-right" : "mode",
+              "on-scroll-up": "shift_up",
+              "on-scroll-down": "shift_down"
+            }
+  },
+
+  "pulseaudio": {
+    "format": "  {volume}%"
+  },
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": " ",
+      "none": " ",
+      "dnd-notification": " ",
+      "dnd-none": " ",
+      "inhibited-notification": " ",
+      "inhibited-none": " ",
+      "dnd-inhibited-notification": " ",
+      "dnd-inhibited-none": " "
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "7": "󰏪 ",
+      "8": " ",
+      "9": " ",
+      "0": "󱇫 ",
+      "default": " ",
+      "active": " "
+    }
+  },
+
+  "hyprland/language": {
+    "format": "  {}",
+    "format-it": "ITA"
+  }
+}

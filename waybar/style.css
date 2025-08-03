@@ -1,0 +1,28 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+  background-color: rgba(26,27,38, 0.75);
+  border-radius: 20px;
+  color: #7aa2f7;
+}
+
+
+button {
+  background-color: rgba(0, 0, 0, 0.0);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #7aa2f7;
+}
+button:hover {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
