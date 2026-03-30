@@ -1,13 +1,13 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "JetbrainsMono Nerd Font";
     font-size: 13px;
 }
 
 window#waybar {
-  background-color: rgba(26,27,38, 0.75);
+  background-color: rgba(60, 0, 97, 0.2);
   border-radius: 20px;
-  color: #7aa2f7;
+  color: #E4D00A;
 }
 
 
@@ -16,7 +16,7 @@ button {
   border: none;
   outline: none;
   box-shadow: none;
-  color: #7aa2f7;
+  color: #E4D00A;
 }
 button:hover {
   background-color: transparent;
