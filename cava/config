@@ -9,12 +9,12 @@ sensitivity = 50
 
 
  gradient = 1
- gradient_color_1 = '#7aa2f7'
- gradient_color_2 = '#5e81ac'
- gradient_color_3 = '#9d7cd8'
- gradient_color_4 = '#bb9af7'
- gradient_color_5 = '#7dcfff'
- gradient_color_6 = '#a9b1d6'
+ gradient_color_1 = '#FACF32'
+ gradient_color_2 = '#D8AE2E'
+ gradient_color_3 = '#A8812A'
+ gradient_color_4 = '#79552F'
+ gradient_color_5 = '#4F2D36'
+ gradient_color_6 = '#35173D'
 
 
 
