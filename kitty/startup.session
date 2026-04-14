@@ -1,1 +1,1 @@
-launch sh -c "fastfetch; exec bash"
+launch bash -c "fastfetch; exec bash"
