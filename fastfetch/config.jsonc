@@ -24,6 +24,7 @@
     "uptime",
     "packages",
     "shell",
+    "memory",
     "cpu",
     "gpu",
     "break",
