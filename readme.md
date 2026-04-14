@@ -34,12 +34,12 @@ I'm also learning a lot of new concept and coding stuff (for example git, css, c
 + btop (incoming configs)  
 
 # Incoming features
-[] eww  
-[] spicetify custom theme  
-[] interchangeable themes  
-[] notification client widget  
-[] new lf configs  
-[] new thunar configs  
-[] new calendar widget sync. with other calendars  
-[] some cool vlc configs  
-[] wlogout  
+- [ ] eww  
+- [ ] spicetify custom theme  
+- [ ] interchangeable themes  
+- [ ] notification client widget  
+- [ ] new lf configs  
+- [ ] new thunar configs  
+- [ ] new calendar widget sync. with other calendars  
+- [ ] some cool vlc configs  
+- [ ] wlogout  
