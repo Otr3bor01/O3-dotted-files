@@ -7,39 +7,39 @@ I really enjoy daily using my arch/hyprland rice as almost every configuration i
 I'm also learning a lot of new concept and coding stuff (for example git, css, c, javascrip and linux in general).
 
 # What I'm really having fun using
-**Text editors**
-+nvim *(writing the new config rn)*  
-+code  
+**Text editors**  
++ nvim *(writing the new config rn)*  
++ code  
   
-**File explorers**
-+lf *(writing the new config rn)*  
-+thunar *(writing the new theme)*  
+**File explorers**  
++ lf *(writing the new config rn)*  
++ thunar *(writing the new theme)*  
   
-**Program launcher**
-+fuzzler  
+**Program launcher**  
++ fuzzler  
   
-**windget and bar**
-+waybar  
+**windget and bar**  
++ waybar  
   
-**Terminal emulator**
-+kitty  
+**Terminal emulator**  
++ kitty  
   
-**Others**
-+Obsidian  
-+To Do  
-+Cava  
-+tty-clock  
-+termdown  
-+fastfetch  
-+btop (incoming configs)  
+**Others**  
++ Obsidian  
++ To Do  
++ Cava  
++ tty-clock  
++ termdown  
++ fastfetch  
++ btop (incoming configs)  
 
 # Incoming features
-+eww  
-+spicetify custom theme  
-+interchangeable themes  
-+notification client widget  
-+new lf configs  
-+new thunar configs  
-+new calendar widget sync. with other calendars  
-+some cool vlc configs  
-+wlogout  
+[] eww  
+[] spicetify custom theme  
+[] interchangeable themes  
+[] notification client widget  
+[] new lf configs  
+[] new thunar configs  
+[] new calendar widget sync. with other calendars  
+[] some cool vlc configs  
+[] wlogout  
